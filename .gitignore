@@ -1,12 +1,16 @@
-# Node / Dependencies
+# Dependencies
 node_modules/
 dist/
 
-# Environment
+# Environment files (strictly ignore real secrets and local overrides)
 .env
 .env.local
-*.log
+.env.*.local
+!.env.example
+!.env.development
 
-# IDE
+# Logs & temp
+*.log
+.DS_Store
 .idea/
 .vscode/
