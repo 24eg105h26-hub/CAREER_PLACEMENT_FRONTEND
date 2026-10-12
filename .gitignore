@@ -1,0 +1,12 @@
+# Node / Dependencies
+node_modules/
+dist/
+
+# Environment
+.env
+.env.local
+*.log
+
+# IDE
+.idea/
+.vscode/
